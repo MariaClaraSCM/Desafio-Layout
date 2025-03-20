@@ -1,0 +1,20 @@
+header{
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    
+}
+
+header img{
+    width: 5%;
+}
+
+nav{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+
+header a{
+    padding: 0 2vw;
+}
