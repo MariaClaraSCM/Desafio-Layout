@@ -1,20 +1,164 @@
-header{
-    display: inline-block;
-    width: 100%;
-    align-items: center;
-    
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
 }
 
-header img{
-    width: 5%;
-}
-
-nav{
-    display: inline-block;
+header {
     text-align: center;
-    align-items: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 3vw 0;
+    background-color: #fff;
 }
 
-header a{
-    padding: 0 2vw;
+header img {
+    width: 7%;
+    position: absolute;
+    left: 13%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    right: 11%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header a {
+    padding: 0 .5vw;
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+}
+
+.posterSection {
+    text-align: right;
+    width: 100%;
+}
+
+.posterSection div {
+    display: inline-block;
+    width: 26%;
+    vertical-align: middle;
+    text-align: left; 
+    margin-top: 3vw;
+}
+
+.poster {
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+}
+
+.poster img {
+    width: 100%;
+}
+
+.posterSection h1{
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.posterSection h2{
+    font-size: 2.5em;
+    font-weight: 800;
+    color: #f32c1d;
+}
+
+.posterSection p{
+    font-size: .6em;
+    margin: 2vw 0;
+}
+
+.posterSection button{
+    border: .2vw solid #f32c1d;
+    border-radius: 1.5em;
+    padding: .5vw 1vw;
+    font-weight: 800;
+    font-size: 1em;
+}
+
+.meio {
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.meio picture {
+    display: inline-block;
+    width: 32%;
+    vertical-align: middle;
+    transform: scalex(-1);
+}
+
+.meio div {
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+    white-space: normal;
+    margin-left: 5vw;
+}
+
+.meio picture img{
+    width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.meio h1 img{
+    width: 2vw;
+    display: inline-block;
+}
+
+.meio h1{
+    font-weight: 800;
+    font-size: 2.4vw;
+}
+
+.meio p{
+    font-size: .6em;
+    margin: 1vw 0;
+}
+
+.M{
+    font-size: .7em;
+}
+
+.meio button{
+    border: .2vw solid #f32c1d;
+    border-radius: 1.5em;
+    padding: .5vw 1vw;
+    font-weight: 800;
+    font-size: .6em;
+}
+
+.final p, .final h1{
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.final h1{
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-bottom: 2vw;
+}
+
+.final b{
+    color: #f32c1d;
+    font-weight: 800;
+}
+
+.final p{
+    font-size: .6em;
 }
