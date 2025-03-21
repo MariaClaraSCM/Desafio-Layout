@@ -42,6 +42,11 @@ header a {
 .posterSection {
     text-align: right;
     width: 100%;
+    background-image: url(./img/poster.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 26vw;
+    place-content: center;
 }
 
 .posterSection div {
@@ -49,7 +54,6 @@ header a {
     width: 26%;
     vertical-align: middle;
     text-align: left; 
-    margin-top: 3vw;
 }
 
 .poster {
@@ -84,6 +88,7 @@ header a {
     padding: .5vw 1vw;
     font-weight: 800;
     font-size: 1em;
+    background-color: #fff;
 }
 
 .meio {
@@ -136,10 +141,11 @@ header a {
 
 .meio button{
     border: .2vw solid #f32c1d;
-    border-radius: 1.5em;
+    border-radius: 2em;
     padding: .5vw 1vw;
     font-weight: 800;
     font-size: .6em;
+    background-color: #fff;
 }
 
 .final p, .final h1{
@@ -161,4 +167,18 @@ header a {
 
 .final p{
     font-size: .6em;
+}
+
+.grades{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.grade{
+    width: 30%;
+}
+
+.grade img{
+    width: 20%;
 }
