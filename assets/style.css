@@ -13,6 +13,7 @@ header {
     top: 0;
     padding: 3vw 0;
     background-color: #fff;
+    z-index: 2;
 }
 
 header img {
@@ -37,6 +38,8 @@ header a {
     text-decoration: none;
     color: black;
     font-size: 1vw;
+    transition: 0.3s ease-in-out;
+
 }
 
 .home{
@@ -180,24 +183,27 @@ header a {
 }
 
 .grade {
-    display: inline-block; 
+    display: inline-block;
     width: 30%; 
     vertical-align: top;
     text-align: center;
     margin: 0 1%;
+    box-sizing: border-box;
 }
 
-
-.grade img{
-    width: 50%;
+.grade img {
+    width: 66%;
     height: 30vh;
+    border-radius: .5vw;
+    object-fit: cover;
 }
 
-.grade h3{
+.grade h3 {
     font-weight: 800;
+    font-size: 3vh;
 }
 
-.grade button{
+.grade button {
     background-color: #f32c1d;
     font-weight: 700;
     border-radius: 3vh;
@@ -208,13 +214,30 @@ header a {
     margin: 1.5vw 0;
 }
 
+.p {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.p p {
+    width: 66%;
+    margin: 0 auto;
+}
+
+
 .Whatsap{
     width: 5%;
     position: fixed;
-    top: 38vw;
+    top: 44vw;
     right: 2vw;
+}
+
+nav a {
+    transition: 0.3s ease-in-out;
 }
 
 nav a:hover{
     color: #f32c1d;
+    text-decoration: underline;
 }
