@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+.Modal{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 8.7vw 0vw;
+}
+
+img{
+    width: 25%;
+    margin-top: 4vw;
+}
+
+button{
+    position: fixed;
+    left: 2vw;
+    top: 2vw;
+    background-color: #f32c1d;;
+    border-radius: 3vh;
+    border: none;
+    padding: .5vw 1vw;
+    font-size: 2vh;
+}
+
+a{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
